@@ -1,12 +1,3 @@
-
-#insta-img1{
-    height: 55vh;
-    width: 100vw;
-}
-#link-img1{
-    height: 55vh;
-    width: 100vw;
-}
 .carousel-caption insta-cap{
     background-color: red;
     color: red;
@@ -22,4 +13,9 @@
 }
 .size{
     padding: 8px;
+}
+@media screen and (max-width:425px){
+    .firstDiv{
+        height: 410px;
+    }
 }

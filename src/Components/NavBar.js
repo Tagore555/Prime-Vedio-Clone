@@ -1,14 +1,14 @@
 import React from 'react';
 import './css/navBar.css';
-import primelogo from './css/prime3.png';
+import primelogo from './css/prime8.png';
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg fixed-top bg-black p-2 pt-3">
+      <nav className="navbar navbar-expand-lg fixed-top bg-black p-0 pt-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="/"><img src={primelogo} alt="prime logo" className='prime-logo' /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon hamburger-button"></span>
           </button>
           <div className="collapse navbar-collapse att-class " id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
