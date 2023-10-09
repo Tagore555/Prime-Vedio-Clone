@@ -4,6 +4,7 @@ import primelogo from './css/prime8.png';
 const NavBar = () => {
   return (
     <div>
+      <h1>hello</h1>
       <nav className="navbar navbar-expand-lg fixed-top bg-black p-0 pt-0">
         <div className="container-fluid">
           <a className="navbar-brand" href="/"><img src={primelogo} alt="prime logo" className='prime-logo' /></a>
