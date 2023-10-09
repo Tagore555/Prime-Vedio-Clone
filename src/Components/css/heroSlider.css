@@ -1,0 +1,25 @@
+
+#insta-img1{
+    height: 55vh;
+    width: 100vw;
+}
+#link-img1{
+    height: 55vh;
+    width: 100vw;
+}
+.carousel-caption insta-cap{
+    background-color: red;
+    color: red;
+}
+.firstDiv{
+    height: 450px;
+    width: 100%;
+    border-radius: 7px;
+}
+.secondDiv{
+    height: 400px;
+    width: 100%;
+}
+.size{
+    padding: 8px;
+}
