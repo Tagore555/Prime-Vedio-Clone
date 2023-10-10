@@ -19,3 +19,8 @@
         height: 410px;
     }
 }
+@media screen and (max-width:320px){
+    .firstDiv{
+        height: 380px;
+    }
+}
