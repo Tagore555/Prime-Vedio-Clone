@@ -21,4 +21,32 @@
 .hamburger-button{
     background-color: white;
     border-radius: 5px;
+    text-align: left;
+    justify-content: left;
+}
+#navbarScrollingDropdown{
+    color: white;
+}
+.nav-text{
+
+    background-color: black;
+    
+}
+.nav-inner{
+    background-color: black;
+}
+.h{
+    background-color: black;
+}
+#con:hover{
+
+    color: black !important;
+    background-color: white !important;
+    border-radius: 10px;
+}
+.dropdown-menu show{
+    background-color: black;
+}
+NavDropdown{
+    background-color: black;
 }
