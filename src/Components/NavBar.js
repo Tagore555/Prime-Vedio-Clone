@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import './css/navBar.css';
 import primelogo from './css/prime8.png';
 const NavBar = () => {
@@ -49,3 +49,53 @@ const NavBar = () => {
 }
 
 export default NavBar
+*/
+
+
+
+
+
+import Container from 'react-bootstrap/Container';
+
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import './css/navBar.css';
+import primelogo from './css/prime8.png';
+
+function NavScrollExample() {
+  return (
+    <Navbar expand="lg" className="bg-black p-0 pt-0">
+      <Container fluid>
+      <a className="navbar-brand" href="/"><img src={primelogo} alt="prime logo" className='prime-logo' /></a>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll" >
+          <Nav
+            className="me-auto my-2 my-lg-0 bg-black"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1" className="text-white">Home</Nav.Link>
+            <Nav.Link href="#action2" className="text-white">Trending</Nav.Link>
+            <Nav.Link href="#action2" className="text-white">Comedy</Nav.Link>
+            <NavDropdown title="Categories" id="navbarScrollingDropdown"  className='h'>
+              <div className="nav-text">
+              <div className='nav-inner'>
+              <NavDropdown.Item href="#action3" className="text-white" id='con'>Continue Watching</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" className="text-white" id='tel'>Telugu</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" className="text-white" id='hin'>Hindi</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" className="text-white" id='eng'>English</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" className="text-white" id='com'>Comedy</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" className="text-white" id='sci'>Sci-fi</NavDropdown.Item>
+              </div>
+              </div>
+              
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default NavScrollExample;
